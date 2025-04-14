@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.side-menu {
+  width: 23%;
+  padding: 10px;
+  background-color: #faa;
+
+}
+
+.main-contents {
+  width: 73%;
+  padding: 10px;
+  background-color: #ccc;
+}
+.side-menu, .main-contents {
+  box-sizing: border-box;
+}
+
